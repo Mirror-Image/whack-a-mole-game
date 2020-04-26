@@ -6,6 +6,7 @@ let score = document.querySelector('#score');
 
 let result = 0;
 let currentTime = timeLeft.textContent;
+let hitPosition = null;
 
 function randomSquare() {
   square.forEach(className => {
